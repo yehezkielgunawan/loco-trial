@@ -1,0 +1,7 @@
+[alias]
+loco = "run --"
+playground = "run --example playground"
+
+
+[build]
+rustflags = ["-Z", "threads=8"]
